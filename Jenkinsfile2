@@ -14,7 +14,7 @@ stages{
            sh 'mvn clean compile'
               }
             }
-       stage('Test maven project') {
+       stage('Execute Junit Test Cases in  maven project') {
        steps{
            sh 'mvn clean test'
               }
