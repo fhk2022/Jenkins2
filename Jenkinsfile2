@@ -6,7 +6,7 @@ pipeline {
 stages{
     stage('checkout the project from Github') {
       steps{
-         git 'https://github.com/devopscbabu/DevOpsAddressBook.git'
+         git 'https://github.com/fhk2022/Jenkins2.git'
            }
        }
       stage('compile maven project') {
